@@ -2,42 +2,48 @@
 *{
     margin: 5px;
     padding: 0px;
-   }
-   #wrapper{
-    width: 950px;
-    background-color: silver;
+}
+
+#wrapper{
+width: 950px;
+background-color: silver;
     margin: 0px auto;
     padding: 10px;
    }
-   #header{
+
+#header{
     min-height: 150px;
     background-color: green;
     margin: 11px;
-   }
-   #navigation{
+}
+
+#navigation{
     min-height: 300px;
     width: 200px;
     background-color: blue;
     display: inline-block;
     margin: 7px;
-   }
-   #main_content{
-    min-height: 400px;
+}
+
+#main_content{
+    min-height: 400px; /* use height if size won't be chaning */
     background-color: red;
     display: inline-block;
     vertical-align: top;
     padding: 10px 33px 10px 10px;
     margin: 7px;
-   }
-   .subcontents{
+}
+
+.subcontents{
     min-height: 200px;
     width: 210px;
     background-color: yellow;
     display: inline-block;
-   }
-   #advertisement{
+}
+
+#advertisement{
     min-height: 120px;
     width: 660px;
     background-color: purple;
-   }
+}
    
